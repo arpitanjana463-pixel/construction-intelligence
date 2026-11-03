@@ -11,7 +11,7 @@ function App() {
 
   const requestInProgress = useRef(false);
 
-  const API_URL = "http://127.0.0.1:8001/analyze-image";
+  const API_URL = "https://construction-intelligence-boxq.onrender.com/analyze-image";
 
   function handleUpload(event) {
     const selectedFile = event.target.files?.[0];
